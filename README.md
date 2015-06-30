@@ -42,7 +42,9 @@ It is a general best practice to use Virtualenv to create your environment:
 
 ## Getting started
 
-`cd eucaconsole/tests/selenium/guiops`
+`git clone https://github.com/eucalyptus/guitester`
+
+`cd guitester/guitester`
 
 `ipython`
 
