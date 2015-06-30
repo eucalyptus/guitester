@@ -52,11 +52,12 @@ It is a general best practice to use Virtualenv to create your environment:
 
 for local webdriver:
 
-`tester = GuiEC2(<Remote Webdriver i.e. "http://10.111.80.115:4444/wd/hub">,<console URL>)`
+`tester = GuiEC2(<console URL>)`
 
 for remore webdriver:
 
-`tester = GuiEC2(<console URL>)`
+`tester = GuiEC2(<Remote Webdriver i.e. "http://10.111.80.115:4444/wd/hub">,<console URL>)`
+
 This will launch a copy of firefox browser and open eucaconsole.
 
 By typing `tester.` and tabbing out you can see all command options.
