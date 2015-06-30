@@ -3,7 +3,7 @@ Testing platform for eucaconsole - the graphical user interface of eucalyptus.
 
 ## Introduction
 
-Guitester is a testing framework for eucaconsole implemented with python selenium bindings. To use the framework you will need an instance of Local or [Remote Selenium Webdriver](https://github.com/eucalyptus/eucaconsole/wiki/Setting-up-Remote-Selenium-Webdriver,-VNC-server-and-Firefox-on-Centos-6).
+Guitester is a testing framework for eucaconsole implemented with python selenium bindings. To use the framework you will need an instance of Local or [Remote Selenium Webdriver](https://github.com/eucalyptus/guitester/wiki/Setting-up-Remote-Selenium-Webdriver,-VNC-server-and-Firefox-on-Centos-6).
 
 
 ## Configuring your environment
