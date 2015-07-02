@@ -1,8 +1,11 @@
 from guitester.guiec2 import GuiEC2
+import argparse
 import time
 
 
+
 class Keypair_operations_sequence(GuiEC2):
+
 
     keypair_name = "gui-test"
 
@@ -12,7 +15,13 @@ class Keypair_operations_sequence(GuiEC2):
                   "tlZD0zbdV/tpADxDpnhW2cPVpXcjy4sRzUCc8AZW+OE3LQxXild alicehubenko@Alices-MacBook-Pro.local"
 
     def __init__(self):
-        self.tester = GuiEC2(console_url="http://localhost:8888")
+
+        parser = argparse.ArgumentParser(description='Process options.')
+        parser.add_argument('-c','--console_url', type=str, help='Console url <example: https://10.111.1.7>')
+        args = vars(parser.parse_args())
+        console_url = args['console_url']
+
+        self.tester = GuiEC2(console_url=console_url)
 
     def keypair_ops_test(self):
 
